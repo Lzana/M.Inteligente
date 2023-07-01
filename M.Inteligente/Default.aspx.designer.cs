@@ -33,13 +33,13 @@ namespace M.Inteligente
         protected global::System.Web.UI.WebControls.TextBox nombretxt;
 
         /// <summary>
-        /// Control ruttxt.
+        /// Control codigotxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ruttxt;
+        protected global::System.Web.UI.WebControls.TextBox codigotxt;
 
         /// <summary>
         /// Control bebidaDbl.

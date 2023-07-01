@@ -16,8 +16,8 @@
                         <asp:TextBox ID="nombretxt" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <label for="rutTxt">Rut</label>
-                        <asp:TextBox ID="ruttxt" CssClass="form-control" runat="server"></asp:TextBox>
+                        <label for="codigoTxt">Codigo</label>
+                        <asp:TextBox ID="codigotxt" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
                     <div class="form-group">
                         <label for="bebidaDbl">Bebida Favorita</label>
