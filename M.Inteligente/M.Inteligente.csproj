@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="IngresarLectura.aspx" />
+    <Content Include="MostraLectura.aspx" />
     <Content Include="VerMedidores.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +80,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarLectura.aspx.cs">
+      <DependentUpon>IngresarLectura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresarLectura.aspx.designer.cs">
+      <DependentUpon>IngresarLectura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostraLectura.aspx.cs">
+      <DependentUpon>MostraLectura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostraLectura.aspx.designer.cs">
+      <DependentUpon>MostraLectura.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>

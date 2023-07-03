@@ -44,7 +44,7 @@ namespace M.Inteligente
             Medidores medidores = new Medidores()
             {
                 Serie = serie,
-                Tipo = tipoMedidor
+                Tipo = tipo
             };
 
         
