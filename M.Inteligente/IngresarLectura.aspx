@@ -24,7 +24,7 @@
                 </div>
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="Fecha">Fecha de Lectura </label>
+                        <label for="Calendar1">Fecha de Lectura </label>
                        <!--<  <asp:TextBox ID="Fecha" CssClass="form-control" runat="server"></asp:TextBox> >-->
                        <asp:Calendar ID="Calendar1"  runat="server"></asp:Calendar>
                     </div>
