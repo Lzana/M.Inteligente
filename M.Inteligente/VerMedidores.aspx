@@ -13,7 +13,7 @@
                          OnRowCommand="grillaMedidores_RowCommand"
                          AutoGenerateColumns="false" ID="grillaMedidores">
                         <Columns>
-                            <asp:BoundField DataField="tipolb" HeaderText="Tipo de Medidor" />
+                            <asp:BoundField DataField="tipo" HeaderText="Tipo de Medidor" />
                             <asp:BoundField DataField="serie" HeaderText="Nuemero de Serie" />
                          
                         </Columns>

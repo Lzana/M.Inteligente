@@ -45,6 +45,7 @@
     <Compile Include="DAL\ItipoMedidoresDAL.cs" />
     <Compile Include="DAL\MedidoresDALObjetos.cs" />
     <Compile Include="DAL\tipoMedidoresDALObjetos.cs" />
+    <Compile Include="DTO\Lectura.cs" />
     <Compile Include="DTO\Medidores.cs" />
     <Compile Include="DTO\TipoMedidores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

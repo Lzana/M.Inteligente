@@ -3,5 +3,7 @@
   <siteMapNode url="" title="Inicio"  description="">
     <siteMapNode url="Default.aspx" title="Ingresar Medidor"  description="" />
     <siteMapNode url="VerMedidores.aspx" title="Medidores"  description="" />
+	  <siteMapNode url="IngresarLectura.aspx" title="Ingresar Lectura"  description="" />
+	  <siteMapNode url="MostrarLectura.aspx" title="Mostrar Lectura"  description="" />
   </siteMapNode>
 </siteMap>
