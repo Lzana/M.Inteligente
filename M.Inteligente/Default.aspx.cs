@@ -54,6 +54,9 @@ namespace M.Inteligente
             Response.Redirect("VerMedidores.aspx");
         }
 
+        protected void tipobl_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }

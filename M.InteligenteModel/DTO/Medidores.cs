@@ -13,5 +13,10 @@ namespace M.InteligenteModel.DTO
 
         public string Tipo { get => tipo; set => tipo = value; }
         public int Serie { get => serie; set => serie = value; }
+
+        internal void Add(Medidores medidores)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
