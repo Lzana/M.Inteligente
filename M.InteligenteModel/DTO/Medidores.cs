@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace M.InteligenteModel.DTO
 {
-    internal class Medidores
+    public  class Medidores
     {
+        private string tipo;
+        private int serie;
+
+        public string Tipo { get => tipo; set => tipo = value; }
+        public int Serie { get => serie; set => serie = value; }
     }
 }
