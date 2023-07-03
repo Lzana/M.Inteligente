@@ -33,6 +33,15 @@ namespace M.Inteligente
         protected global::System.Web.UI.WebControls.DropDownList tipobl;
 
         /// <summary>
+        /// Control Fecha.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Fecha;
+
+        /// <summary>
         /// Control Calendar1.
         /// </summary>
         /// <remarks>
@@ -42,13 +51,31 @@ namespace M.Inteligente
         protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
-        /// Control Fecha.
+        /// Control horaTxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Fecha;
+        protected global::System.Web.UI.WebControls.TextBox horaTxt;
+
+        /// <summary>
+        /// Control minutosTxt.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox minutosTxt;
+
+        /// <summary>
+        /// Control consumotxt.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox consumotxt;
 
         /// <summary>
         /// Control agregarBtn.
