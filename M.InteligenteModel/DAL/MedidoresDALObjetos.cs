@@ -14,7 +14,7 @@ namespace M.InteligenteModel.DAL
 
         public void AgregarMedidor(Medidores medidores)
         {
-            medidores.add(medidores);
+            medidores.Add(medidores);
         }
 
         public List<Medidores> ObtenerMedidores()
