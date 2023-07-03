@@ -12,9 +12,9 @@ namespace M.InteligenteModel.DAL
 
         private static List<Medidores> medidores = new List<Medidores>();
 
-        public void AgregarMedidor(Medidores medidores)
+        public void AgregarMedidor(Medidores medidor)
         {
-            medidores.Add(medidores);
+            medidores.Add(medidor);
         }
 
         public List<Medidores> ObtenerMedidores()

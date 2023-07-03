@@ -43,8 +43,8 @@ namespace M.Inteligente
 
             Medidores medidores = new Medidores()
             {
-                Serie = serie,
-                Tipo = tipo
+                Serie = Convert.ToInt32(serie),
+                Tipo = tipoMedidor.Nombre
             };
 
         
