@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\IMedidoresDAL.cs" />
+    <Compile Include="DAL\ItipoMedidoresDAL.cs" />
     <Compile Include="DAL\MedidoresDALObjetos.cs" />
+    <Compile Include="DAL\tipoMedidoresDALObjetos.cs" />
     <Compile Include="DTO\Medidores.cs" />
+    <Compile Include="DTO\TipoMedidores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
