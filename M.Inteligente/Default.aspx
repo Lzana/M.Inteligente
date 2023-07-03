@@ -19,7 +19,7 @@
 
                     <div class="form-group">
                         <label for="tipobl">Tipo Medidor</label>
-                        <!--<select ARREGLAR>-->
+                        <!--<select >-->
                         <asp:DropDownList runat="server" ID="tipobl" CssClass="form-select" AppendDataBoundItems="true">
                             <asp:ListItem Text="Seleccione una opcion"></asp:ListItem>
 

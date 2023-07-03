@@ -9,20 +9,13 @@
                 </div>
                 <div class="card-body">
                     <asp:GridView CssClass="table table-hover table-bordered" runat="server" 
-                         OnRowCommand="grillaCliente_RowCommand"
-                         AutoGenerateColumns="false" ID="grillaCliente">
-                        <Columns>
-                            <asp:BoundField DataField="Rut" HeaderText="Rut del Cliente" />
-                            <asp:BoundField DataField="Nombre" HeaderText="Nombre del Cliente" />
-                            <asp:BoundField DataField="NivelTxt" HeaderText="Nivel Cliente"/>
-                            <asp:BoundField DataField="BebidaFavorita.Nombre" HeaderText="Favorita" />
-                            <asp:TemplateField>
-                                <ItemTemplate>
-                                    <asp:Button CommandName="elimina" CommandArgument='<%# Eval("Rut") %>'                                      
 
-                                        runat="server" CssClass="btn btn-danger" Text="Eliminar" />
-                                </ItemTemplate>
-                            </asp:TemplateField>
+                         OnRowCommand="grillaMedidores_RowCommand"
+                         AutoGenerateColumns="false" ID="grillaMedidores">
+                        <Columns>
+                            <asp:BoundField DataField="tipolb" HeaderText="Tipo de Medidor" />
+                            <asp:BoundField DataField="serie" HeaderText="Nuemero de Serie" />
+                         
                         </Columns>
                     </asp:GridView>
                 </div>
