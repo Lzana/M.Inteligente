@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <asp:GridView CssClass="table table-hover table-bordered" runat="server" 
 
-                         OnRowCommand="grillaMedidores_RowCommand"
+                       
                          AutoGenerateColumns="false" ID="grillaMedidores">
                         <Columns>
                             <asp:BoundField DataField="tipo" HeaderText="Tipo de Medidor" />

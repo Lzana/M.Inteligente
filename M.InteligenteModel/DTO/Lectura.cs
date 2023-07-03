@@ -9,13 +9,13 @@ namespace M.InteligenteModel.DTO
     public class Lectura
     {
         private Medidores medidores;
-        private DateTime fechaLectura;
-        private string horaLectura;
+        private DateTime fechaL;
+        private string horaL;
         private decimal valorConsumo;
 
         public Medidores Medidores { get => medidores; set => medidores = value; }
-        public DateTime FechaLectura { get => fechaLectura; set => fechaLectura = value; }
-        public string HoraLectura { get => horaLectura; set => horaLectura = value; }
+        public DateTime FechaL { get => fechaL; set => fechaL = value; }
+        public string HoraL { get => horaL; set => horaL = value; }
         public decimal ValorConsumo { get => valorConsumo; set => valorConsumo = value; }
     }
 }
