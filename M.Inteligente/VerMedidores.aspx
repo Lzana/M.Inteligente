@@ -18,8 +18,8 @@
                             <asp:BoundField DataField="BebidaFavorita.Nombre" HeaderText="Favorita" />
                             <asp:TemplateField>
                                 <ItemTemplate>
-                                    <asp:Button CommandName="elimina" CommandArgument='<%# Eval("Rut") %>' 
-                                        
+                                    <asp:Button CommandName="elimina" CommandArgument='<%# Eval("Rut") %>'                                      
+
                                         runat="server" CssClass="btn btn-danger" Text="Eliminar" />
                                 </ItemTemplate>
                             </asp:TemplateField>

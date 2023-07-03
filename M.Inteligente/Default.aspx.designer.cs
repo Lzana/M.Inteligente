@@ -24,40 +24,22 @@ namespace M.Inteligente
         protected global::System.Web.UI.WebControls.Label mensajesLbl;
 
         /// <summary>
-        /// Control nombretxt.
+        /// Control serietxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nombretxt;
+        protected global::System.Web.UI.WebControls.TextBox serietxt;
 
         /// <summary>
-        /// Control codigotxt.
+        /// Control tipobl.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox codigotxt;
-
-        /// <summary>
-        /// Control bebidaDbl.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList bebidaDbl;
-
-        /// <summary>
-        /// Control nivelRbl.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList nivelRbl;
+        protected global::System.Web.UI.WebControls.DropDownList tipobl;
 
         /// <summary>
         /// Control agregarBtn.

@@ -11,30 +11,21 @@
                     <h3>Ingresar Medidor</h3>
                 </div>
                 <div class="card-body">
+                   
                     <div class="form-group">
-                        <label for="nombreTxt">Nombre</label>
-                        <asp:TextBox ID="nombretxt" CssClass="form-control" runat="server"></asp:TextBox>
+                        <label for="serieTxt">Numero de serie</label>
+                        <asp:TextBox ID="serietxt" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
+
                     <div class="form-group">
-                        <label for="codigoTxt">Codigo</label>
-                        <asp:TextBox ID="codigotxt" CssClass="form-control" runat="server"></asp:TextBox>
-                    </div>
-                    <div class="form-group">
-                        <label for="bebidaDbl">Bebida Favorita</label>
+                        <label for="tipobl">Tipo Medidor</label>
                         <!--<select ARREGLAR>-->
-                        <asp:DropDownList runat="server" ID="bebidaDbl" CssClass="form-select" AppendDataBoundItems="true">
+                        <asp:DropDownList runat="server" ID="tipobl" CssClass="form-select" AppendDataBoundItems="true">
                             <asp:ListItem Text="Seleccione una opcion"></asp:ListItem>
 
-                        </asp:DropDownList>
+                      </asp:DropDownList>
                     </div>
-                    <div class="form-group">
-                        <label for="nivelRbl">Nivel</label>
-                        <asp:RadioButtonList runat="server" ID="nivelRbl">
-                            <asp:ListItem Text="Silver" Value="1"></asp:ListItem>
-                            <asp:ListItem Text="Gold" Value="2"></asp:ListItem>
-                            <asp:ListItem Text="Platinum" Value="3"></asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
+                  
                     <div class="form-group">
                         <asp:Button runat="server" ID="agregarBtn" OnClick="agregarBtn_Click" Text="Agregar" CssClass="btn btn-primary btn-lg" />
 
