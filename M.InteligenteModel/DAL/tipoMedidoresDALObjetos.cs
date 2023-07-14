@@ -16,20 +16,14 @@ namespace M.InteligenteModel.DAL
 
                  new TipoMedidores()
                 {
-                    Nombre = "Digital",
-                    Codigo = "DI"
+                    Nombre = "Automatico",
+                    Codigo = "AU"
                 },
                 new TipoMedidores()
                 {
                     Nombre = "Manual",
                     Codigo = "MA"
-                },
-                new TipoMedidores()
-                {
-                    Nombre = "Automatico",
-                    Codigo = "AU"
                 }
-
             };
         }
     }
